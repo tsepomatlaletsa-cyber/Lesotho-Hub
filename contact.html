@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Lesotho Hub — Contact</title>
+  
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* Form */
+    form{background:var(--card); padding:20px; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.08);}
+    form h2{margin-bottom:16px; color:var(--brand);}
+    label{display:block; margin-top:12px; font-size:14px; font-weight:600;}
+    input, textarea{width:100%; padding:12px; border:1px solid rgba(0,0,0,.12); border-radius:8px; margin-top:6px; font-family:inherit;}
+    input:focus, textarea:focus{outline:none; border-color:var(--brand); box-shadow:0 0 0 3px var(--ring);}
+    button{margin-top:16px; padding:12px 20px; border:0; border-radius:8px; background:var(--brand); color:#fff; font-weight:600; cursor:pointer;}
+    button:hover{opacity:.9;}
+  </style>
+  
+</head>
+<body>
+  <header>
+    <div class="container topbar">
+      <div class="logo" onclick="window.location.href='index.html'">
+        <div class="logo-badge">🌿</div>
+        <div>
+          <div style="font-size:16px">Lesotho Hub</div>
+          <div style="font-size:12px; color:var(--muted); margin-top:-4px">Connecting Farmers & Clients</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="business.html">Business</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="tips.html">Tips</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="contact-section">
+        
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions, suggestions, or business inquiries, feel free to reach out.</p>
+        <p><strong>Email:</strong> support@lesothohub.com</p>
+        <p><strong>Phone:</strong> +266 5703 9723</p>
+        <p><strong>Location:</strong> Maseru, Lesotho</p>
+      </div>
+
+      <!-- Contact Form -->
+      <form>
+        <h2>Send us a Message</h2>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+  <div class="container">
+    <p>© 2025 Lesotho Hub — All Rights Reserved</p>
+
+    <div class="footer-links">
+      <a href="about.html">About Us</a> | 
+      <a href="contact.html">Contact</a> | 
+      <a href="business.html">Marketplace</a> | 
+      <a href="tips.html">Farming Tips</a>
+    </div>
+
+    <div class="footer-info">
+      <p>Email: support@lesothohub.com | Phone: +266 500 12345</p>
+      <p>Address: Maseru, Lesotho</p>
+    </div>
+
+    <div class="footer-social">
+      <a href="#">🌐 Facebook</a> | 
+      <a href="#">🐦 Twitter</a> | 
+      <a href="#">📸 Instagram</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
