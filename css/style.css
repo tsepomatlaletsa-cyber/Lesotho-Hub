@@ -223,5 +223,20 @@ footer a:hover {
   background: #1b5e20;
 }
 
+/* Mobile Navigation */
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;        /* allow items to go to next line */
+    justify-content: center; /* center them */
+    gap: 10px;
+  }
+
+  nav ul li a {
+    font-size: 14px;  /* smaller text so they fit better */
+    padding: 6px 10px;
+  }
+}
+
+
   
 
